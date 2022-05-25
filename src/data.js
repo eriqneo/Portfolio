@@ -1,27 +1,26 @@
 export const projects = [
     {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Website",
+    subtitle: "HTML & Bootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A website that describes the business of moving a home from one place to another. Also allows for booking of the service.Click to check out.",
     image: "./folio.png",
-    link: "https://reactbootcamp.com",
+    link: "https://magicmoving.co.ke/",
     },
     {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Landing Page",
+    subtitle: "Svelte and Tailwind",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A simple landing page that describes a clients' business. More of a portfolio with a charge section. Click to check out.",
     image: "./phbk.avif",
-    link: "https://reactbootcamp.com",
+    link: "https://erickneo.netlify.app/",
     },
     {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Feedback App",
+    subtitle: "Svelte & CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./notes.avif",
-    link: "https://reactbootcamp.com",
+      "A simple feedback app that allows users to leave feedback on a product by giving a rating and leaving a comment. Click to check out.",
+    link: "https://fidback.netlify.app/",
     },
     {
     title: "React Reserve",
@@ -70,26 +69,26 @@ export const skills = [
 export const testimonials = [
   {
     name: 'Bradford Jeff',
-    quote: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    image: './Brad.jpeg',
+    quote: 'Great team player. Looking forward to working with you again.',
+    image: './Icon1.jpg',
     company: 'A-Team'
   },
    {
     name: 'Arthur Odonge',
-    quote: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    image: './Arthur.jpeg',
+    quote: 'Your professionalism is a Gift. I would recommend you to anyone.',
+    image: './Icon2.jpg',
     company: 'A-Team'
   },
     {
     name: 'Clintion Illah',
-    quote: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    image: './Clint.jpeg',
-    company: 'African Inveest'
+    quote: 'With more projects coming, I will be working with you again.',
+    image: './Icon3.jpg',
+    company: 'Afreeca Invest'
   },
      {
     name: 'Pascaal Ewaat',
-    quote: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    image: './Pasc.jpeg',
-    company: 'African Inveest'
+    quote: 'I love what you did with my project. Allah bless you 🙌 more',
+    image: './Icon4.jpg',
+    company: 'Afreeca Invest'
   }
 ]

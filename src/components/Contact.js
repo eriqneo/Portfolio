@@ -40,15 +40,17 @@ const Contact = () => {
           </div>
         </div>
         <form
-          netlify
-          name="contact"
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+            action="https://formspree.io/f/xoqrreak"
+            name="contact"
+            method="POST"
+            className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+              Do you have a business problem than needs automation? Or do you need a Website? I can
+              Assist you with that. Let me know what you need and I will get back to you as soon as
+              possible. Let's connect.😄
                     </p>
         <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -58,7 +60,7 @@ const Contact = () => {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-orange-500 focus:ring-2 focus:ring-orange-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-orange-200 focus:ring-2 focus:ring-orange-800 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <div className="relative mb-4">
@@ -69,7 +71,7 @@ const Contact = () => {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-orange-500 focus:ring-2 focus:ring-orange-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-orange-200 focus:ring-2 focus:ring-orange-800 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
                     </div>
         <div className="relative mb-4">
@@ -81,7 +83,7 @@ const Contact = () => {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-orange-500 focus:ring-2 focus:ring-orange-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-orange-200 focus:ring-2 focus:ring-orange-800 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             />
           </div>
           <button
