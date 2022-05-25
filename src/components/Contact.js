@@ -48,7 +48,7 @@ const Contact = () => {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-              Do you have a business problem than needs automation? Or do you need a Website? I can
+              Do you have a business problem that needs automation? Or do you need a Website? I can
               Assist you with that. Let me know what you need and I will get back to you as soon as
               possible. Let's connect.😄
                     </p>
@@ -59,7 +59,8 @@ const Contact = () => {
             <input
               type="text"
               id="name"
-              name="name"
+                name="name"
+                required
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-orange-200 focus:ring-2 focus:ring-orange-800 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -70,7 +71,8 @@ const Contact = () => {
             <input
               type="email"
               id="email"
-              name="email"
+                name="email"
+                required
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-orange-200 focus:ring-2 focus:ring-orange-800 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
                     </div>
@@ -82,7 +84,8 @@ const Contact = () => {
             </label>
             <textarea
               id="message"
-              name="message"
+                name="message"
+                required
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-orange-200 focus:ring-2 focus:ring-orange-800 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             />
           </div>
