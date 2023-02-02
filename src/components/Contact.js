@@ -21,8 +21,8 @@ const Contact = () => {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Odinga Oginga St <br />
-                Kisumu, Kenya
+                Nairobi Road <br />
+                Nakuru, Kenya
               </p>
                         </div>
         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -30,7 +30,7 @@ const Contact = () => {
                 EMAIL
               </h2>
               <a  href='mailto' className="text-indigo-400 leading-relaxed">
-                eriqneone@email.com
+                erick.atura@outlook.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE

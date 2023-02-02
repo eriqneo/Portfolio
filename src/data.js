@@ -3,15 +3,15 @@ export const projects = [
     title: "Website",
     subtitle: "HTML & Bootstrap",
     description:
-      "A website that describes the business of moving a home from one place to another. Also allows for booking of the service.Click to check out.",
+      "A portfolio website that describes the proffesion of a person,their ability. prowess among other traits.Click to check out.",
     image: "./folio.png",
-    link: "https://magicmoving.co.ke/",
+    link: "https://eriqneo.github.io/Tamara/",
     },
     {
     title: "Landing Page",
     subtitle: "Svelte and Tailwind",
     description:
-      "A simple landing page that describes a clients' business. More of a portfolio with a charge section. Click to check out.",
+      "A simple landing page that describes a business. More of a portfolio with a charge section. Click to check out.",
     image: "./phbk.avif",
     link: "https://erickneo.netlify.app/",
     },
@@ -23,12 +23,12 @@ export const projects = [
     link: "https://fidback.netlify.app/",
     },
     {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Business Website",
+    subtitle: "HTML & Bootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A business website with products deatils, pictures and about the company and why choose them.Click to check out",
     image: "./house.avif",
-    link: "https://reactbootcamp.com",
+    link: "https://biozenkenya.co.ke/",
   },
 ]
 
