@@ -32,7 +32,7 @@ const About = () => {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./neo.png"
+            src="./HeroNeo1.png"
           />
         </div>
             </div>
